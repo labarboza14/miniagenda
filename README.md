@@ -19,7 +19,7 @@ Este projeto é uma **mini agenda interativa** feita com HTML, CSS e JavaScript 
 
 ```
 
-miniagenda/
+todolist/
 │
 ├── index.html       # Estrutura da página (calendário + formulário)
 ├── style.css        # Estilização da agenda e do calendário
