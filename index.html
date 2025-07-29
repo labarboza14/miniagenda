@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mini Agenda</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🗓️ Mini Agenda</h1>
+
+  <section id="add-event">
+    <h2>Adicionar Evento</h2>
+    <form id="event-form">
+      <input type="text" id="name" placeholder="Nome do participante" required />
+      <input type="email" id="email" placeholder="E-mail" required />
+      <input type="time" id="time" required />
+      <input type="date" id="date" required />
+      <button type="submit">Adicionar</button>
+    </form>
+  </section>
+
+  <section id="calendar">
+    <h2>Calendário</h2>
+    <div id="calendar-grid"></div>
+  </section>
+
+  <section id="event-list">
+    <h2>Eventos do Dia</h2>
+    <ul id="today-events"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
